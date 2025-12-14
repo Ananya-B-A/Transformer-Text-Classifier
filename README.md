@@ -20,13 +20,13 @@ self-attention, and deployed as an interactive Streamlit application.
 - Pandas
 
 ## Project Structure
-transformer-text-classifier/
-├── data/
-├── model.py
-├── train.py
-├── app.py
-├── requirements.txt
-└── README.md
+-transformer-text-classifier/
+-├── data/
+-├── model.py
+-├── train.py
+-├── app.py
+-├── requirements.txt
+-└── README.md
 
 ## How to Run
 ```bash
