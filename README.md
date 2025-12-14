@@ -1,15 +1,34 @@
-# Transformer Text Classifier
+# Transformer-Based Text Classification
 
-A Transformer-based sentiment analysis model built using PyTorch and deployed with Streamlit.
+## Overview
+This project implements an end-to-end Transformer-based NLP classifier using PyTorch.
+The model is built from scratch using embeddings, positional encoding, and multi-head
+self-attention, and deployed as an interactive Streamlit application.
 
 ## Features
-- Custom Transformer Encoder
-- CLS-token pooling
-- Padding mask
+- Custom tokenization and vocabulary handling
+- Transformer Encoder architecture
 - Binary sentiment classification
+- Model training and evaluation
+- Deployment using Streamlit
+
+## Tech Stack
+- Python
+- PyTorch
+- Transformer Encoder
+- Streamlit
+- Pandas
+
+## Project Structure
+transformer-text-classifier/
+├── data/
+├── model.py
+├── train.py
+├── app.py
+├── requirements.txt
+└── README.md
 
 ## How to Run
-
 ```bash
 pip install -r requirements.txt
 python train.py
